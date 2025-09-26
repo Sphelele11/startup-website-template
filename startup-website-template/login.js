@@ -36,6 +36,12 @@ loginForm.onsubmit = function(e) {
 signupForm.onsubmit = function(e) {
   e.preventDefault();
 
+console.log('Signup Successful Redirecting.....');
+
+setTimeout(function() {
+  window.location.href ='index.html';
+},100);
+
   // Add your sign-up processing logic here
 
   alert('Sign Up successful! You can now login.');
