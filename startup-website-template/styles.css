@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: darkblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.button-container {
+  display:flex;
+  gap: 20px;
+}
+
+.btn {
+  background-color: #add8e6; /* Light blue */
+  border: none;
+  color: #000;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn:hover {
+  background-color: #87ceeb; /* Sky blue on hover */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('/startup-website-template/img/techmindilogy.jpeg'); /* You can change this */
+  background-size: absolute;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  gap: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* optional: semi-transparent background */
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.btn {
+  background-color: #add8e6;
+  border: none;
+  color: #000;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn:hover {
+  background-color: #87ceeb;
+}

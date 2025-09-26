@@ -1,0 +1,99 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-image: url('./img/techmindilogy.jpeg'); /* Background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  display: flex;               /* make body a flex container */
+  justify-content: center;     /* center horizontally */
+  align-items: center;         /* center vertically */
+}
+
+.form-container {
+  max-width: 400px;
+  width: 100%;
+  background-color: rgba(0,0,0,0.6); /* optional: dark transparent background for readability */
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.button-container {
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.button-box {
+  margin-bottom: 15px;
+}
+
+.button-box button {
+  background-color: #eee;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px 4px 0 0;
+  margin-right: 2px;
+}
+
+.button-box button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+form.form {
+  display: none;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 0 4px 4px 4px;
+}
+
+form.form.active {
+  display: block;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.form-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+form h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: normal;
+}
+
+form h2 i {
+  margin-right: 8px;
+}
